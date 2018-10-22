@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header"
 import Link from "next/link";
 
 export default () => 
@@ -6,6 +7,7 @@ export default () =>
     <Head>
         <title>Index | nomad store</title>
     </Head>
+    <Header/>
     <h1>Hello From the index</h1>
     <Link href={"/about"}>
         <a>about page</a>
