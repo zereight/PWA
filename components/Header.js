@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default () =>
+export default () => (
 <header>
     <nav>
         <ul>
@@ -16,4 +16,4 @@ export default () =>
             </li>
         </ul>
     </nav>
-</header>;
+</header>);
